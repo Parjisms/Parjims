@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:background="#aa0000"
+        android:layout_gravity="top"
+        android:padding="10dip"
+        android:singleLine="true"
+        android:text="线性布局1"
+        android:textSize="30pt"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#0000aa"
+        android:gravity="right"
+        android:padding="17dip"
+        android:text="线性布局2"
+        android:textSize="10pt"
+        />
+
+</LinearLayout>
